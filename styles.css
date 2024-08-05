@@ -1,29 +1,36 @@
 /* Write your CSS here! */
 body {
+  margin: 8px;
+  background-color: rgb(179, 201, 235);
+  display: block;
+  text-align: center;
   width: 100%;
 }
-
-header,
-main,
+#mainHeading {
+  color: red;
+  background-color: rgb(44, 166, 243);
+}
+h2 {
+  color: rgb(5, 91, 5);
+}
 img {
-  width: 100%;
-  max-width: 100%;
+  width: 50%;
+  align-content: center;
 }
-
-/* 1. margin
-2. padding
-1. element 
-2. class
-3. id  */
-/*Use the element selector to give the <body> element a 
-margin value of 8px and a display type of block.*/
-/*element <body> Margin 8px display type block
-
-/*Give a heading on your page the id of mainHeading 
-and use the id selector in styles.css to make the color 
-red and apply any additional styling of your choosing.*/
-
-/*Give a paragraph on your page the id of testP 
-and a class name of funParagraph. Use the class 
-selector in styles.css and make the color green 
-and give it any additional styling of your choosing.*/
+p {
+  font-size: x-large;
+  text-wrap: ;
+}
+ol {
+  font-size: larger;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.funParagraph {
+  color: green;
+  background-color: rgb(235, 56, 166);
+}
+.center {
+  text-align: center;
+  list-style-position: inside;
+}
